@@ -11,9 +11,12 @@ The `data` directory should have the structure:
    |- dataset1
    |    |- lang1
    |    |- lang2
+   |    ...
+   |
    |- dataset2
    |    |- lang1
    |    |- lang2
+   |    ...
    . . .
    . . .
    . . .
