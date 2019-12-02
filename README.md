@@ -39,3 +39,9 @@ MINL=3        # <- minimum line count
 MAXL=8        # <- maximum line count
 NUMFILES=2000 # <- number of files to copy
 ```
+
+# Useful commands
+If you have `xargs`, you can quickly test how many files has less than 3 lines.
+``` sh
+find . -type f | xargs wc -l | awk '$1 < 3' | wc -l
+```
